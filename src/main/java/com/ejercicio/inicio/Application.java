@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EntityScan(basePackages = "com.ejercicio.model")
 @EnableJpaRepositories(basePackages = "com.ejercicio.dao")
-@SpringBootApplication(scanBasePackages = {"com.ejercicio.controller", "com.ejercicio.service"})
+@SpringBootApplication(scanBasePackages = {"com.ejercicio.controller", "com.ejercicio.service", "com.ejercicio.config"})
 public class Application {
 
 	public static void main(String[] args) {
